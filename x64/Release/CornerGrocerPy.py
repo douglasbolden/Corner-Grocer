@@ -17,7 +17,8 @@ Opens a file, and then displays only the items IN ALPHABETICAL ORDER!
 """
 def ItemsList():
     c = Counter()
-
+    
+    # You will need to change this location to the location that your file is saved to.
     with open('C:\\Users\\dougl\\Desktop\\daily-items.txt') as itemlist:
         for line in itemlist:
             c[line.rstrip()] += 1
@@ -31,6 +32,8 @@ Opens a file, and then displays the whole list IN ALPHABETICAL ORDER!
 """
 def PrintFrequencies():
     c = Counter()
+    
+    # You will need to change this location to the location that your file is saved to.
     with open('C:\\Users\\dougl\\Desktop\\daily-items.txt') as itemlist:
         for line in itemlist:
             c[line.rstrip()] += 1
@@ -44,7 +47,8 @@ Opens a file, and then returns selected items value.
 """
 def PrintSpecificFrequencies(specificWord):
     c = Counter()
-
+    
+    # You will need to change this location to the location that your file is saved to.
     with open('C:\\Users\\dougl\\Desktop\\daily-items.txt') as itemlist:
         for line in itemlist:
             c[line.rstrip()] += 1
@@ -59,11 +63,13 @@ Then displays the whole list IN ALPHABETICAL ORDER.
 """
 def SaveDat():
     c = Counter()
-
+    
+    # You will need to change this location to the location that your file is saved to.
     with open('C:\\Users\\dougl\\Desktop\\daily-items.txt') as itemlist:
         for line in itemlist:
             c[line.rstrip()] += 1
-
+    
+    # You will need to change this location to the location that your file is saved to.
     with open('C:\\Users\\dougl\\Desktop\\frequency.dat', 'w') as file:
         for d, e in sorted(c.items()):
             file.write('{}: {}\n'.format(d, e))
