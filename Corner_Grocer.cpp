@@ -137,6 +137,7 @@ void HistogramPlusFiles() {
 	system("pause");
 
 	// Open file that list was saved to.
+	// You will need to change this location to the location that your file saved to.
 	fItemsFS.open("C:\\Users\\dougl\\Desktop\\frequency.dat");
 
 	// If file is already in use. Cease the activity.
