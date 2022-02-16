@@ -1,0 +1,8 @@
+﻿  Corner_Grocer.cpp
+C:\Users\dougl\source\repos\CornerGrocer\Corner_Grocer.cpp(172,17): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  4 of 288 functions ( 1.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  CornerGrocer.vcxproj -> C:\Users\dougl\source\repos\CornerGrocer\x64\Release\CornerGrocer.exe
