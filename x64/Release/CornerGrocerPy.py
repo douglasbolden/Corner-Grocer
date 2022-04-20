@@ -12,7 +12,7 @@ WE CAN USE BOTH THE KEY AND THE VALUE as needed.
 """
 
 """
-ItemList()
+ItemsList()
 Opens a file, and then displays only the items IN ALPHABETICAL ORDER!
 """
 def ItemsList():
